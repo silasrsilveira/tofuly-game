@@ -1,0 +1,6 @@
+Anotações
+
+## Teste bloco na tela
+# teste_bloco = pygame.sprite.Group(Bloco((100,100),200))
+## Para testar se o bloco está aparecendo na tela
+#     teste_bloco.draw(tela)
