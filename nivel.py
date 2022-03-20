@@ -39,4 +39,5 @@ class Nivel:
         self.blocos.draw(self.display_surface)
         
         # Jogador
+        self.jogador.update()
         self.jogador.draw(self.display_surface)
