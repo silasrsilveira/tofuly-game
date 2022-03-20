@@ -1,7 +1,7 @@
 nivel_mapa = [
 '                         ',
 '                         ',
-'XX                XX     ',
+'XX P              XX     ',
 'XXXX    X      XX   XXXX ',
 'XXXXX  XX     XX         ',
 '           XXXX        XX',
