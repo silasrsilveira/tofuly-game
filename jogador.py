@@ -20,7 +20,7 @@ class Jogador(pygame.sprite.Sprite):
             self.direcao.x = 0
 
      def update(self):
-         self.get_input()
-         self.rect.x += self.direcao.x * self.speed
+          self.get_input()
+          self.rect.x += self.direcao.x * self.speed
 
 

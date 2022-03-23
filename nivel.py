@@ -1,6 +1,3 @@
-import imp
-
-
 import pygame
 from bloco import Bloco
 from config import tamanho_bloco
@@ -34,10 +31,24 @@ class Nivel:
                     jogador_sprite = Jogador((x,y))
                     self.jogador.add(jogador_sprite)
 
+    def rolagem_x(self):
+        jogador = self.jogador.sprite
+        jogador_x = jogador.centerx
+        direcao_x = jogador.direcao.x
+
+        if jogador_x < screen_width / 4 and direction_x < 0:
+            self.world_shift = 8
+			player.speed = 0
+
+
+
+
     def run(self):
+        
         self.blocos.update(self.mundo_troca)
         self.blocos.draw(self.display_surface)
         
         # Jogador
         self.jogador.update()
         self.jogador.draw(self.display_surface)
+        
